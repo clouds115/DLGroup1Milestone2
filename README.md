@@ -57,6 +57,7 @@ jupyter notebook fake_news_detection_distilbert.ipynb
 ```
 deepLearningUPMGroup01/
 ├── fake_news_detection_distilbert.ipynb  # Main training notebook
+├── example_inference.py                  # Example inference script
 ├── requirements.txt                      # Python dependencies
 ├── README.md                             # This file
 ├── .gitignore                           # Git ignore rules
@@ -125,6 +126,17 @@ outputs = model(**inputs)
 prediction = torch.argmax(outputs.logits, dim=1)
 print("Fake" if prediction == 0 else "True")
 ```
+
+**Or use the provided example script:**
+
+```bash
+python example_inference.py
+```
+
+This script provides:
+- Pre-defined example predictions
+- Interactive mode for testing custom text
+- Confidence scores for each prediction
 
 ### References
 
