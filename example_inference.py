@@ -11,7 +11,7 @@ Usage:
 """
 
 import torch
-from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
+from transformers import AutoTokenizer, DistilBertForSequenceClassification
 
 
 def predict_news(text, model, tokenizer, device, max_length=512):
@@ -68,7 +68,7 @@ def main():
     
     try:
         model = DistilBertForSequenceClassification.from_pretrained(model_path)
-        tokenizer = DistilBertTokenizer.from_pretrained(model_path)
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
         model = model.to(device)
         print('✓ Model loaded successfully!')
     except Exception as e:
