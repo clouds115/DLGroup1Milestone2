@@ -1,14 +1,12 @@
 # deepLearningUPMGroup01
 
-Deep Learning Course 2025/26 - Group 1: Alonso Geesink Anton, Claudio Vincenzo Catalano Leiva, Seyit Ahmet, Inci
+Deep Learning Course 2025/26 - Group 1: Alonso Geesink Anton, Claudio Vincenzo Catalano Leiva, Seyit Ahmet Inci
 
 ## Fake News Detection with DistilBERT
 
-This repository contains a Jupyter notebook for fine-tuning a DistilBERT model to detect fake news articles.
-
 ### Dataset
 
-The project uses the [Fake News Detection Dataset](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data) from Kaggle, which contains:
+Our project will be trained using the [Fake News Detection Dataset](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data) from Kaggle, which contains:
 - **Fake.csv**: Fake news articles
 - **True.csv**: True news articles
 
