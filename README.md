@@ -1,14 +1,12 @@
-# deepLearningUPMGroup01
+# UPM EMSE Deep Learning 2025/26 Course - Course Project
 
-Deep Learning Course 2025/26 - Group 1: Alonso Geesink Anton, Claudio Vincenzo Catalano Leiva, Seyit Ahmet, Inci
+Group 1: Alonso Geesink Anton, Claudio Vincenzo Catalano Leiva, Seyit Ahmet Inci
 
 ## Fake News Detection with DistilBERT
 
-This repository contains a Jupyter notebook for fine-tuning a DistilBERT model to detect fake news articles.
-
 ### Dataset
 
-The project uses the [Fake News Detection Dataset](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data) from Kaggle, which contains:
+Our project will be trained using the [Fake News Detection Dataset](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data) from Kaggle, which contains:
 - **Fake.csv**: Fake news articles
 - **True.csv**: True news articles
 
@@ -91,21 +89,44 @@ The `fake_news_detection_distilbert.ipynb` notebook includes:
 - **Parameters**: ~66M trainable parameters
 - **Max Sequence Length**: 512 tokens
 
-### Training Configuration
+### Training Configurations
 
-Default hyperparameters:
-- **Batch Size**: 16
-- **Epochs**: 3
-- **Learning Rate**: 2e-5
-- **Optimizer**: AdamW
-- **Scheduler**: Linear with warmup
+## C1
+- **Batch Size**: TBD
+- **Epochs**: 
+- **Learning Rate**: TBD
+- Weight Decay**: TBD
 
-### Expected Results
+## C2
+- **Batch Size**: TBD
+- **Epochs**: TBD
+- **Learning Rate**: TBD
+- Weight Decay**: TBD
 
-The model typically achieves:
-- **Accuracy**: 98-99% on test set
-- **Precision/Recall**: High performance on both classes
-- **Training Time**: ~30-60 minutes (depending on hardware)
+## C3
+- **Batch Size**: TBD
+- **Epochs**: TBD
+- **Learning Rate**: TBD
+- Weight Decay**: TBD
+
+## C4
+- **Batch Size**: TBD
+- **Epochs**: TBD
+- **Learning Rate**: TBD
+- Weight Decay**: TBD
+
+## C5
+- **Batch Size**: TBD
+- **Epochs**: TBD
+- **Learning Rate**: TBD
+- Weight Decay**: TBD
+
+## C6
+- **Batch Size**: TBD
+- **Epochs**: TBD
+- **Learning Rate**: TBD
+- Weight Decay**: TBD
+
 
 ### Usage Example
 
@@ -144,27 +165,6 @@ This implementation is based on the following Kaggle notebooks:
 - [Fake and Real News DistilBERT](https://www.kaggle.com/code/henryukwuoma/fake-and-real-news-distilbert)
 - [DistilBERT Fine-tuning on Fake News Data](https://www.kaggle.com/code/shehabmagdy710/distilbert-fine-tuning-on-fake-news-data)
 
-### Hardware Requirements
-
-- **Minimum**: CPU with 8GB RAM (slower training)
-- **Recommended**: GPU with 8GB+ VRAM (CUDA-compatible)
-- **Disk Space**: ~5GB (model, data, checkpoints)
-
-### Troubleshooting
-
-**Out of Memory Error:**
-- Reduce `BATCH_SIZE` to 8 or 4
-- Reduce `MAX_LENGTH` to 256
-
-**Slow Training:**
-- Use GPU if available
-- Reduce dataset size for testing
-- Use fewer epochs
-
-**Import Errors:**
-- Ensure all dependencies are installed: `pip install -r requirements.txt`
-- Update to latest versions if needed
-
 ### License
 
 This project is for educational purposes as part of the Deep Learning Course 2025/26 at UPM.
@@ -173,9 +173,4 @@ This project is for educational purposes as part of the Deep Learning Course 202
 
 - Alonso Geesink Anton
 - Claudio Vincenzo Catalano Leiva
-- Seyit Ahmet
-- Inci
-
-### Contact
-
-For questions or issues, please open an issue in the GitHub repository.
+- Seyit Ahmet Inci
