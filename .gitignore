@@ -38,6 +38,7 @@ env/
 data/
 datasets/
 *.zip
+DL_Milestone2_experiments/
 
 # Model files
 models/
