@@ -77,10 +77,6 @@ The `fake_news_detection_distilbert.ipynb` notebook includes:
 5. **Tokenization**: Prepare data using DistilBERT tokenizer
 6. **Model Setup**: Configure DistilBERT for binary classification
 7. **Training**: Fine-tune the model with progress tracking
-8. **Visualization**: Plot training curves and metrics
-9. **Evaluation**: Comprehensive metrics on test set
-10. **Inference**: Predict on new articles
-11. **Model Saving**: Save trained model and tokenizer
 
 ### Model Architecture
 
@@ -126,38 +122,6 @@ The `fake_news_detection_distilbert.ipynb` notebook includes:
 - **Epochs**: 4
 - **Learning Rate**: 1.5e-5
 - Weight Decay**: 0.02
-
-
-### Usage Example
-
-After training, use the model for inference:
-
-```python
-from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
-import torch
-
-# Load model and tokenizer
-model = DistilBertForSequenceClassification.from_pretrained('models/fake_news_distilbert')
-tokenizer = DistilBertTokenizer.from_pretrained('models/fake_news_distilbert')
-
-# Predict
-text = "Your news article text here..."
-inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
-outputs = model(**inputs)
-prediction = torch.argmax(outputs.logits, dim=1)
-print("Fake" if prediction == 0 else "True")
-```
-
-**Or use the provided example script:**
-
-```bash
-python example_inference.py
-```
-
-This script provides:
-- Pre-defined example predictions
-- Interactive mode for testing custom text
-- Confidence scores for each prediction
 
 ### References
 
