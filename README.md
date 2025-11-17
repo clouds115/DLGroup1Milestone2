@@ -92,40 +92,40 @@ The `fake_news_detection_distilbert.ipynb` notebook includes:
 ### Training Configurations
 
 ## C1
-- **Batch Size**: TBD
-- **Epochs**: 
-- **Learning Rate**: TBD
-- Weight Decay**: TBD
+- **Batch Size**: 32
+- **Epochs**: 1
+- **Learning Rate**: 4e-5
+- Weight Decay**: 0.00
 
 ## C2
-- **Batch Size**: TBD
-- **Epochs**: TBD
-- **Learning Rate**: TBD
-- Weight Decay**: TBD
+- **Batch Size**: 32
+- **Epochs**: 2
+- **Learning Rate**: 3e-5
+- Weight Decay**: 0.01
 
 ## C3
-- **Batch Size**: TBD
-- **Epochs**: TBD
-- **Learning Rate**: TBD
-- Weight Decay**: TBD
+- **Batch Size**: 32
+- **Epochs**: 2
+- **Learning Rate**: 3e-5
+- Weight Decay**: 0.005
 
 ## C4
-- **Batch Size**: TBD
-- **Epochs**: TBD
-- **Learning Rate**: TBD
-- Weight Decay**: TBD
+- **Batch Size**: 32
+- **Epochs**: 3
+- **Learning Rate**: 2e-5
+- Weight Decay**: 0.01
 
 ## C5
-- **Batch Size**: TBD
-- **Epochs**: TBD
-- **Learning Rate**: TBD
-- Weight Decay**: TBD
+- **Batch Size**: 32
+- **Epochs**: 3
+- **Learning Rate**: 2e-5
+- Weight Decay**: 0.015
 
 ## C6
-- **Batch Size**: TBD
-- **Epochs**: TBD
-- **Learning Rate**: TBD
-- Weight Decay**: TBD
+- **Batch Size**: 32
+- **Epochs**: 4
+- **Learning Rate**: 1.5e-5
+- Weight Decay**: 0.02
 
 
 ### Usage Example
