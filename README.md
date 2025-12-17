@@ -16,7 +16,7 @@ Our project will be trained using the [Fake News Detection Dataset](https://www.
 
 ```bash
 git clone https://github.com/clouds115/deepLearningUPMGroup01.git
-cd deepLearningUPMGroup01
+cd DLGroup1Milestone2
 ```
 
 #### 2. Install Dependencies
@@ -83,55 +83,54 @@ The `fake_news_detection_distilbert.ipynb` notebook includes:
 - **Base Model**: DistilBERT (distilbert-base-uncased)
 - **Task**: Binary sequence classification (Fake vs True)
 - **Parameters**: ~66M trainable parameters
-- **Max Sequence Length**: 512 tokens
+- **Max Sequence Length**: 128 tokens
+- **Weight Decay**: 0.02
 
 ### Training Configurations
 
 ## C1
 - **Batch Size**: 32
 - **Epochs**: 1
-- **Learning Rate**: 4e-5
-- Weight Decay**: 0.00
+- **Learning Rate**: 3e-5
 
 ## C2
 - **Batch Size**: 32
-- **Epochs**: 2
-- **Learning Rate**: 3e-5
-- Weight Decay**: 0.01
+- **Epochs**: 1
+- **Learning Rate**: 1.5e-5
 
 ## C3
 - **Batch Size**: 32
 - **Epochs**: 2
 - **Learning Rate**: 3e-5
-- Weight Decay**: 0.005
 
 ## C4
 - **Batch Size**: 32
-- **Epochs**: 3
-- **Learning Rate**: 2e-5
-- Weight Decay**: 0.01
+- **Epochs**: 2
+- **Learning Rate**: 1.5e-5
 
 ## C5
 - **Batch Size**: 32
 - **Epochs**: 3
-- **Learning Rate**: 2e-5
-- Weight Decay**: 0.015
+- **Learning Rate**: 3e-5
 
 ## C6
 - **Batch Size**: 32
-- **Epochs**: 4
+- **Epochs**: 3
 - **Learning Rate**: 1.5e-5
-- Weight Decay**: 0.02
+- 
+### UI Implementation - Milestone 3
+
+To view the work performed during milestone 3 for the UI implementation, please refer to the following repository: https://github.com/alonso113/DLGroup1Milestone3
 
 ### References
 
-This implementation is based on the following Kaggle notebooks:
+This implementation is based on the following Kaggle notebooks as template code:
 - [Fake and Real News DistilBERT](https://www.kaggle.com/code/henryukwuoma/fake-and-real-news-distilbert)
 - [DistilBERT Fine-tuning on Fake News Data](https://www.kaggle.com/code/shehabmagdy710/distilbert-fine-tuning-on-fake-news-data)
 
 ### License
 
-This project is for educational purposes as part of the Deep Learning Course 2025/26 at UPM.
+Educational project - Apache 2.0 (DistilBERT model)
 
 ### Contributors
 
