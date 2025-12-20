@@ -55,15 +55,12 @@ jupyter notebook fake_news_detection_distilbert.ipynb
 ```
 deepLearningUPMGroup01/
 ├── fake_news_detection_distilbert.ipynb  # Main training notebook
-├── example_inference.py                  # Example inference script
 ├── requirements.txt                      # Python dependencies
 ├── README.md                             # This file
 ├── .gitignore                           # Git ignore rules
 ├── data/                                # Dataset directory (not tracked)
 │   ├── Fake.csv
 │   └── True.csv
-└── models/                              # Saved models (not tracked)
-    └── fake_news_distilbert/
 ```
 
 ### Notebook Overview
