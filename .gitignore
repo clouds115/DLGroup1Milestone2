@@ -72,3 +72,9 @@ logs/
 # HuggingFace cache
 .transformers_cache/
 transformers_cache/
+
+# fakenews-results-gpu
+fakenews-results-gpu/
+
+# bestmodel
+bestmodel/
